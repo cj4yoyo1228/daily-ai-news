@@ -2,8 +2,8 @@ name: Daily AI Report
 
 on:
   schedule:
-    # 每天 UTC 0點 (台灣早8) 和 UTC 12點 (台灣晚8) 執行
-    - cron: '0 0,12 * * *'
+    # 台灣時間 10:30 (UTC 02:30) 與 22:30 (UTC 14:30)
+    - cron: '30 2,14 * * *'
   # 允許手動按鈕測試
   workflow_dispatch:
 
