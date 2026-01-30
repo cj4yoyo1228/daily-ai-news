@@ -10,9 +10,11 @@ TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 
 # 🌟 設定區：配送清單
+# 🌟 設定區：配送清單
 TARGET_CHAT_IDS = [
-    "-5249899047",  # 原本的群組
-    "-5159224987"   # 新增的群組
+    "-5249899047",  # 群組 1
+    "-5159224987",  # 群組 2
+    "-5165183995"   # 🎉 群組 3 (最新加入)
 ]
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
