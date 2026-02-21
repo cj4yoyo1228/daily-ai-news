@@ -20,7 +20,7 @@ def clean_text(text: str) -> str:
 
 
 class ArticleFilter:
-    SIMILARITY_THRESHOLD = 0.75
+    SIMILARITY_THRESHOLD = 0.65
 
     def __init__(self):
         print("[Dedup] 載入語意模型 all-MiniLM-L6-v2 ...")
